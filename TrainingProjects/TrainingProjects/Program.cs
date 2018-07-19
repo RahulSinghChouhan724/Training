@@ -1,15 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TrainingProjects
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+
+        }
+
+        public int ListSimpleSearch(float[] arr, float find)
+        {
+            List<float> Li = new List<float>();
+            for (int i = 0; i < arr.Length; i++)
+                Li.Add(arr[i]);
+            KListSimpleSearch L = new KListSimpleSearch();
+            int Result = L.Search(Li, find);
+            return Result;
         }
     }
 }
