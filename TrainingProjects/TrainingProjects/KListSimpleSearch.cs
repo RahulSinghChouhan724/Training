@@ -6,22 +6,29 @@ using System.Threading.Tasks;
 
 namespace TrainingProjects
 {
-    public class KListSimpleSearch
+    public class KListSimpleSearch<T>
     {
-        public int SearchNumber(List<float> Li, float find)
+        public static T Li { get; set; }
+
+        public int ListSimpleSearch(T[] arr, T find)
         {
-            for (int i = 0; i < Li.Count; i++)
-            {
-                if (Li[i].Equals(find))
-                    return i;
-            }
-            return -1;
+            List<T> Li = new List<T>();
+            for (int i = 0; i < arr.Length; i++)
+                Li.Add(arr[i]);
+            
+            int Result = 
+            return Result;
         }
-        public int SearchString(List<String> Li, String find)
+
+        public int ListSearch(List<T> Li, T find)
         {
             for (int i = 0; i < Li.Count; i++)
             {
-                if (Li[i].Equals(find))
+                if (Li[i] is String)
+                    if (Li[i].Equals(find))
+                        return i;
+                    else;
+                else if ((float.Parse(Li[i].ToString())).Equals(find))
                     return i;
             }
             return -1;

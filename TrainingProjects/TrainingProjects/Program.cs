@@ -5,19 +5,14 @@ namespace TrainingProjects
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
-
+            
         }
-
-        public int ListSimpleSearch(float[] arr, float find)
+        public int ListSimpleSearch(int[] arr, int find)
         {
-            List<float> Li = new List<float>();
-            for (int i = 0; i < arr.Length; i++)
-                Li.Add(arr[i]);
-            KListSimpleSearch L = new KListSimpleSearch();
-            int Result = L.Search(Li, find);
-            return Result;
+            KListSimpleSearch<int> L = new KListSimpleSearch<int>();
+            return L.ListSearch(arr, find);
         }
     }
 }
