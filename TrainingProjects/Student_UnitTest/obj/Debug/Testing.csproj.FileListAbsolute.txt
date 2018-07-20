@@ -1,0 +1,17 @@
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\bin\Debug\Student_UnitTest.dll
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\bin\Debug\Student_UnitTest.pdb
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\bin\Debug\TrainingProjects.exe
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\bin\Debug\TrainingProjects.pdb
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\bin\Debug\TrainingProjects.exe.config
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\obj\Debug\Testing.csprojAssemblyReference.cache
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\obj\Debug\Testing.csproj.CoreCompileInputs.cache
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\obj\Debug\Testing.csproj.CopyComplete
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\obj\Debug\Student_UnitTest.dll
+C:\Rahul\Training\TrainingProjects\Student_UnitTest\obj\Debug\Student_UnitTest.pdb
