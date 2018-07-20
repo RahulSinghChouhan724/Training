@@ -8,9 +8,14 @@ namespace TrainingProjects
 {
     public class Course
     {
-        public int Id;
-        public String Name;
-        public String Desc;
+        public int Id { get; set; }
+        public String Name { get; set; }
+        public String Desc { get; set; }
+
+        public Course()
+        {
+
+        }
 
         public Course(int id, String name, String desc)
         {

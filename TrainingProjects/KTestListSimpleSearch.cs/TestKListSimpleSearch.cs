@@ -26,12 +26,12 @@ namespace KTestListSimpleSearch
             Assert.AreEqual(Working, 1);
         }
         [TestMethod]
-        public void ShouldFindErrorForFinding6AtIndex2()
+        public void ShouldNotFind6AtIndex2()
         {
             KListSimpleSearch<int> K = new KListSimpleSearch<int>(); 
             int[] TestArray = new int[] { 2, 5, 1, 8, 4, 9, 3 };
             var Working = K.ListMaker(TestArray, 4);
-            Assert.AreEqual(Working, 2);
+            Assert.AreNotEqual(Working, 2);
         }
         [TestMethod]
         public void ShouldFind3AtIndex6()
@@ -60,12 +60,12 @@ namespace KTestListSimpleSearch
             Assert.AreEqual(Working, 2);
         }
         [TestMethod]
-        public void ShouldFindErrorForFinding4AtIndex2()
+        public void ShouldNotFind4AtIndex2()
         {
             KListSimpleSearch<float> K = new KListSimpleSearch<float>();
             float[] TestArray = new float[] { 2.1f, 5.9f, 1.0f, 8, 4.4f, 9.7f, 3 };
             var Working = K.ListMaker(TestArray, 4);
-            Assert.AreEqual(Working, 2);
+            Assert.AreNotEqual(Working, 2);
         }
         [TestMethod]
         public void ShouldFind3_0AtIndex6()
@@ -94,12 +94,12 @@ namespace KTestListSimpleSearch
             Assert.AreEqual(Working, 0);
         }
         [TestMethod]
-        public void ShouldFindErrorForFindingHeyAtIndex3()
+        public void ShouldNotFindHeyAtIndex3()
         {
             KListSimpleSearch<String> K = new KListSimpleSearch<String>();
             String[] TestArray = new String[] { "Work", "No", "Wassup", "Robocop", "Kulcha", "Boom" };
             var Working = K.ListMaker(TestArray, "Hey");
-            Assert.AreEqual(Working, 3);
+            Assert.AreNotEqual(Working, 3);
         }
         [TestMethod]
         public void ShouldFindBoomAtIndex5()
