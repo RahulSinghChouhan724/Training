@@ -1,0 +1,17 @@
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\bin\Debug\KTestListSimpleSearch.cs.dll
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\bin\Debug\KTestListSimpleSearch.cs.pdb
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\bin\Debug\TrainingProjects.exe
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\bin\Debug\TrainingProjects.pdb
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\bin\Debug\TrainingProjects.exe.config
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\obj\Debug\Testing.csprojAssemblyReference.cache
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\obj\Debug\Testing.csproj.CoreCompileInputs.cache
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\obj\Debug\Testing.csproj.CopyComplete
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\obj\Debug\KTestListSimpleSearch.cs.dll
+E:\Training\TrainingProjects\KTestListSimpleSearch.cs\obj\Debug\KTestListSimpleSearch.cs.pdb
