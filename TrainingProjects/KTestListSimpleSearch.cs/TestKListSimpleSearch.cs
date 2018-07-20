@@ -6,7 +6,7 @@ using TrainingProjects;
 namespace KTestListSimpleSearch
 {
     [TestClass]
-    public class UnitTest1
+    public class KTestListSimpleSearch
     {
         // Integer tests
         [TestMethod]
@@ -85,6 +85,7 @@ namespace KTestListSimpleSearch
             var Working = K.ListMaker(TestArray, "Robocop");
             Assert.AreEqual(Working, 3);
         }
+        [TestMethod]
         public void ShouldFindWorkAtIndex0()
         {
             KListSimpleSearch<String> K = new KListSimpleSearch<String>();
@@ -92,6 +93,7 @@ namespace KTestListSimpleSearch
             var Working = K.ListMaker(TestArray, "Work");
             Assert.AreEqual(Working, 0);
         }
+        [TestMethod]
         public void ShouldFindErrorForFindingHeyAtIndex3()
         {
             KListSimpleSearch<String> K = new KListSimpleSearch<String>();
@@ -99,6 +101,7 @@ namespace KTestListSimpleSearch
             var Working = K.ListMaker(TestArray, "Hey");
             Assert.AreEqual(Working, 3);
         }
+        [TestMethod]
         public void ShouldFindBoomAtIndex5()
         {
             KListSimpleSearch<String> K = new KListSimpleSearch<String>();
