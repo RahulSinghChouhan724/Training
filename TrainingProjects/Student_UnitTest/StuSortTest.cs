@@ -40,7 +40,7 @@ namespace Student_UnitTest
             TestList.populate(4, "FREc");
             TestList.populate(1, "wsd");
             TestList.SortListUsingName();
-            Assert.AreEqual(TestList.Test1(0, 2), 1);
+            Assert.AreNotEqual(TestList.Test1(0, 2), 1);
                     
         }
         [TestMethod]
@@ -75,7 +75,7 @@ namespace Student_UnitTest
             TestList.populate(4, "FREc");
             TestList.populate(1, "wsd");
             TestList.SortListUsingId();
-            Assert.AreEqual(TestList.Test1(4, 1), 1);
+            Assert.AreNotEqual(TestList.Test1(1, 3), 1);
                     
         }
 

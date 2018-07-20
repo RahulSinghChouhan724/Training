@@ -10,20 +10,22 @@ namespace TrainingProjects
     {
         List<Student> SList = new List<Student>();
 
-        public List<Student> populate(int id, string name)
+        public void populate(int id, string name)
         {
             Student n = new Student(id, name);
             SList.Add(n);
             //SortListUsingName(SList);
             //SortListUsingId(SList);
-            return SList;
+            
         }
         public void SortListUsingId()
         {
+            // using linq function
             SList.Sort((x, y) => x.Id.CompareTo(y.Id));
         }
         public void SortListUsingName()
         {
+            // using linq function
             SList.Sort((x, y) => x.Name.CompareTo(y.Name));
         }
         public int Test1(int i,int f)
