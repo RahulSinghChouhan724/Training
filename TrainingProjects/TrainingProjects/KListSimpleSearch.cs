@@ -10,14 +10,13 @@ namespace TrainingProjects
     {
         public static T Li { get; set; }
 
-        public int ListSimpleSearch(T[] arr, T find)
+        public int ListMaker(T[] arr, T find)
         {
+            KListSimpleSearch<T> L = new KListSimpleSearch<T>();
             List<T> Li = new List<T>();
             for (int i = 0; i < arr.Length; i++)
                 Li.Add(arr[i]);
-            
-            int Result = 
-            return Result;
+            return L.ListSearch(Li, find);
         }
 
         public int ListSearch(List<T> Li, T find)
@@ -28,7 +27,7 @@ namespace TrainingProjects
                     if (Li[i].Equals(find))
                         return i;
                     else;
-                else if ((float.Parse(Li[i].ToString())).Equals(find))
+                else if ((float.Parse(Li[i].ToString())).Equals(float.Parse(find.ToString())))
                     return i;
             }
             return -1;
