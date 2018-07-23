@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingProjects", "TrainingProjects\TrainingProjects.csproj", "{9B5E6933-429A-43B5-86F1-26F91AFC7B4D}"
 EndProject
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Student_UnitTest\Testing.csproj", "{1062CD45-D600-4325-AC58-BFA20E258DC3}"
+=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "KTestListSimpleSearch.cs\Testing.csproj", "{C48649C0-D0B4-48FE-839A-306FC4AB7D8A}"
+>>>>>>> 70db16567931d547c4e75a9a33aeb516a88e358a
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,17 @@ Global
 		{9B5E6933-429A-43B5-86F1-26F91AFC7B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B5E6933-429A-43B5-86F1-26F91AFC7B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B5E6933-429A-43B5-86F1-26F91AFC7B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+		{1062CD45-D600-4325-AC58-BFA20E258DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1062CD45-D600-4325-AC58-BFA20E258DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1062CD45-D600-4325-AC58-BFA20E258DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1062CD45-D600-4325-AC58-BFA20E258DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
 		{C48649C0-D0B4-48FE-839A-306FC4AB7D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C48649C0-D0B4-48FE-839A-306FC4AB7D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C48649C0-D0B4-48FE-839A-306FC4AB7D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C48649C0-D0B4-48FE-839A-306FC4AB7D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 70db16567931d547c4e75a9a33aeb516a88e358a
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
