@@ -13,9 +13,7 @@ namespace TrainingProjects
         public String Desc { get; set; }
 
         public Course()
-        {
-
-        }
+        {}
 
         public Course(int id, String name, String desc)
         {
