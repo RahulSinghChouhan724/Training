@@ -67,7 +67,7 @@
     <Compile Include="DictionarySorting.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Serializatio.cs" />
+    <Compile Include="Serialization.cs" />
     <Compile Include="SortList.cs" />
     <Compile Include="Student.cs" />
   </ItemGroup>
